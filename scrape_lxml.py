@@ -1,8 +1,8 @@
 import lxml.html
 import cssselect
 
-# input what you want to pase at #### 
-tree = lxml.html.parse('./####.html')
+# input what you want to pase at x. x=hoge.html
+tree = lxml.html.parse('./x')
 
 html = tree.getroot()
 
